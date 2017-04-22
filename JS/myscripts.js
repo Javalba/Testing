@@ -59,3 +59,41 @@ var expressionThree = (5 * 5) / (5 * 5);
 
 var expressionFour = 5 * 5 - 5 * 4;
  console.log("5-->5 * 5 - 5 * 4 --> "+expressionFour);
+
+
+/*ARRAYS*/
+console.log("**** ARRAYS ****");
+
+ var animalArray = ["Dog", "Cat", "Fish"];
+
+var myDog = animalArray[0];
+console.log(myDog);
+
+var myFish = animalArray[2];
+console.log(myFish);
+
+// returns undefined when the index element does not exists
+var myUndefinedElement = animalArray[3];
+console.log(myUndefinedElement);
+
+console.log("animalLenght --> "+ animalArray.length);
+
+var animalArray = ["Dog", "Cat", "Fish"];
+
+for (var i = 0; i < animalArray.length; i++){
+  console.log(animalArray[i]);
+}
+
+/*EXERCISE*/
+
+console.log("Exercise \nCreate an array of at least 6 of your favorite foods. \nWith the loop of your choice, iterate through the array, but only print out the foods with an even index.");
+
+// var foods=["meat","pizza","kebap","omelette","beer","tuna"];
+// var i=0;
+// 
+// console.log(foods);
+// for(i;i<=foods.length;i++){
+//   if(i%2 || i===0){
+//       console.log(""+foods[i]);
+//   }
+// }
